@@ -1,0 +1,35 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+background: #333;
+}
+.app{
+    width: 100%;
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+}
+.editor{
+    background: #555;
+    width: 100% ;
+    height: 100%;
+}
+.tab{
+    width: 100%;
+    height: 50dvh;
+
+}
+.tab:hover .lens{
+    opacity: 0;
+
+}
+.lens{
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: 20px;
+  
+    transition: .5s;
+}
